@@ -1,10 +1,10 @@
 public interface Npc {
 
-  public void setType( type);
+  public void setType(String type);
 
   public String getType();
 
-  public void setId( id);
+  public void setId(int  id);
 
   public int getId();
 

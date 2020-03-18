@@ -1,8 +1,9 @@
+import java.util.ArrayList;
 import java.util.Vector;
 
-public class DungeonMaster extends Utilizatori {
+public class DungeonMaster extends  Utilizatori {
 
-  public Utilizator utilizator;
+  public Utilizatori utilizator;
 
   public ArrayList<JucatorObisnuit> jucatori;
 
@@ -31,11 +32,11 @@ public class DungeonMaster extends Utilizatori {
   public void situatiaCurentaAJocului() {
   }
 
-  public boolean verificareZar( jucator) {
+  public boolean verificareZar(Utilizatori jucator) {
   return false;
   }
 
-  public void generateNpcs( context) {
+  public void generateNpcs(String context) {
   }
 
 }

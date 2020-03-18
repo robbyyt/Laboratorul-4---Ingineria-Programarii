@@ -4,11 +4,15 @@ public class Cleric implements AlegereClas {
 
   public Integer newAttr;
 
-  public Cleric setClass( class) {
-  return null;
+  public void setClass( AlegereClas clasa) {
+
   }
 
   public void castHeal() {
   }
 
+  @Override
+  public void setClasa(AlegereClas clasa) {
+
+  }
 }

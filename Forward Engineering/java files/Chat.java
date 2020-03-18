@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Vector;
 
 public class Chat {
@@ -11,8 +12,6 @@ public class Chat {
    * 
    * @element-type CameraJoc
    */
-  public Vector  myCameraJoc;
-
   public String getText() {
   return null;
   }

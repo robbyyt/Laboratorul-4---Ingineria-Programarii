@@ -2,8 +2,8 @@ public class Mage implements AlegereClas {
 
   public int type;
 
-  public Mage setClasa( clasa) {
-  return null;
+  public void setClasa(AlegereClas clasa) {
+
   }
 
   public void castSpell() {

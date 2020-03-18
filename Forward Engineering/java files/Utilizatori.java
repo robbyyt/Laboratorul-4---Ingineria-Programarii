@@ -1,6 +1,6 @@
 import java.util.Vector;
 
-public class Utilizatori extends DungeonMaster, JucatorObisnuit {
+public class Utilizatori extends  JucatorObisnuit {
 
   public String nume;
 
@@ -9,15 +9,15 @@ public class Utilizatori extends DungeonMaster, JucatorObisnuit {
    * 
    * @element-type Aplicatie
    */
-  public Vector  myAplicatie;
+
 
   public void alegeJucatorOrMaster() {
   }
 
-  public void setMusic( music) {
+  public void setMusic(String music) {
   }
 
-  public void setVolume( volume) {
+  public void setVolume(int volume) {
   }
 
 }

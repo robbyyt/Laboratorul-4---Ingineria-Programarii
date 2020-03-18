@@ -6,21 +6,25 @@ public class FriendlyNpc implements Npc {
 
   public Integer newAttr;
 
-  public void setType( type) {
+  public void setType(String type) {
   }
+
+
 
   public String getType() {
   return null;
   }
 
-  public void setId( id) {
+
+
+  public void setId(int id) {
   }
 
   public int getId() {
   return 0;
   }
 
-  public void trade( jucator) {
+  public void trade(Utilizatori jucator) {
   }
 
   public void giveQuest() {
